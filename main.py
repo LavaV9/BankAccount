@@ -7,6 +7,7 @@ def main():
     Gru_checking.deposit(100)
     Gru_checking.withdraw(50)
     Gru_checking.print_customer_information()
+    Gru_checking.withdraw(1000) # should fail
 
     Minion_savings = SavingsAccount("M", 10000, 0, "5555", "0", 9)
     Minion_savings.deposit(1000)
