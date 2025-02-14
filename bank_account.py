@@ -23,12 +23,3 @@ class BankAccount:
         print(f"The customer's name is {self.customer_name} and their current balance is {self.current_balance} at {self.title}")
 
 
-a1 = BankAccount("Gru", 200, 0)
-a1.deposit(100)
-a1.withdraw(50)
-a1.print_customer_information()
-
-a2 = BankAccount("Minion", 10000, 8000)
-a2.deposit(1000)
-a2.withdraw(3001)
-a2.print_customer_information()
