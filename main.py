@@ -1,4 +1,6 @@
-from bank_account import BankAccount, CheckingAccount, SavingsAccount
+from bank_account import BankAccount
+from savings_account import SavingsAccount
+from checking_account import CheckingAccount
 
 def main():
     Gru_checking = CheckingAccount("Gru", 200, 0, "9999", "0", 50)
@@ -12,4 +14,5 @@ def main():
     Minion_savings.print_customer_information()
     Minion_savings.apply_interest()
 
-
+if __name__ == "__main__":
+    main()
